@@ -73,13 +73,13 @@ const Dashboard = () => {
                         />
                       </svg>
                       <div className="bg-red-500 rounded-full h-6 px-2 flex justify-items-center text-white font-semibold text-sm">
-                        <span className="flex items-center">30%</span>
+                        <span className="flex items-center">40%</span>
                       </div>
                     </div>
                     <div className="ml-2 w-full flex-1">
                       <div>
-                        <div className="mt-3 text-3xl font-bold leading-8">4510</div>
-                        <div className="mt-1 text-base text-gray-600">Book Sales</div>
+                        <div className="mt-3 text-3xl font-bold leading-8">5510</div>
+                        <div className="mt-1 text-base text-gray-600">Inventory</div>
                       </div>
                     </div>
                   </div>
@@ -111,13 +111,13 @@ const Dashboard = () => {
                         />
                       </svg>
                       <div className="bg-yellow-500 rounded-full h-6 px-2 flex justify-items-center text-white font-semibold text-sm">
-                        <span className="flex items-center">30%</span>
+                        <span className="flex items-center">33%</span>
                       </div>
                     </div>
                     <div className="ml-2 w-full flex-1">
                       <div>
-                        <div className="mt-3 text-3xl font-bold leading-8">4510</div>
-                        <div className="mt-1 text-base text-gray-600">Item Sales</div>
+                        <div className="mt-3 text-3xl font-bold leading-8">3510</div>
+                        <div className="mt-1 text-base text-gray-600">Marketing</div>
                       </div>
                     </div>
                   </div>
@@ -143,13 +143,13 @@ const Dashboard = () => {
                         />
                       </svg>
                       <div className="bg-blue-500 rounded-full h-6 px-2 flex justify-items-center text-white font-semibold text-sm">
-                        <span className="flex items-center">30%</span>
+                        <span className="flex items-center">60%</span>
                       </div>
                     </div>
                     <div className="ml-2 w-full flex-1">
                       <div>
-                        <div className="mt-3 text-3xl font-bold leading-8">4510</div>
-                        <div className="mt-1 text-base text-gray-600">Item Sales</div>
+                        <div className="mt-3 text-3xl font-bold leading-8">3720</div>
+                        <div className="mt-1 text-base text-gray-600">Customer Growth</div>
                       </div>
                     </div>
                   </div>
