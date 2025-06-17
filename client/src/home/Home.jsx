@@ -5,7 +5,7 @@ import FavBook from './FavBook'
 import PromoBanner from './PromoBanner'
 import OtherBooks from './OtherBooks'
 import Review from './Review'
-import QuotesRefresher from './QuotesRefresher'
+// import QuotesRefresher from './QuotesRefresher'
 
 const Home = () => {
   return (
@@ -15,7 +15,7 @@ const Home = () => {
       <FavBook/>
       <PromoBanner/>
       <OtherBooks/>
-      <QuotesRefresher/>
+      {/* <QuotesRefresher/> */}
       <Review/>
     </div>
   )

@@ -432,12 +432,14 @@ const Checkout = () => {
                   </dl>
                 </div>
               </div>
-              <motion.div className="mt-6 space-y-4"
-                initial={{ y: 50, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 1.4, duration: 1 }}>
-                <p className="text-sm font-normal">One or more items in your cart require an account. <Link to="/Login" className='flex items-center gap-2 underline hover:no-underline'>Sign in or create an account now.</Link></p>
-                <button onClick={handleBtn} className="w-full bg-blue-500 text-white py-2 rounded-md font-semibold hover:bg-blue-600 mt-4">
-                  Checkout
-                </button>
+              <motion.div
+                className="mt-6 space-y-4"
+                initial={{ y: 50, opacity: 0 }}
+                animate={{ y: 0, opacity: 1 }}
+                transition={{ delay: 1.4, duration: 1 }}
+              >
+                <p className="text-sm font-normal dark:text-black">One or more items in your cart require an account. <Link to="/Login" className='flex items-center gap-2 underline hover:no-underline'>Sign in or create an account now.</Link></p>
+                <Link to="/payment"><button className="w-full bg-blue-500 text-white py-2 rounded-md font-semibold hover:bg-blue-600 mt-4"><Link onClick={handleBtn} to="/payment">Checkout</Link></button></Link>
               </motion.div>
             </motion.div>
           </motion.div>
